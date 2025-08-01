@@ -34,3 +34,36 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## requirement
+  "packages": {
+    "": {
+      "name": "preflight",
+      "version": "0.1.0",
+      "dependencies": {
+        "@prisma/client": "^6.12.0",
+        "@radix-ui/react-checkbox": "^1.3.2",
+        "@radix-ui/react-label": "^2.1.7",
+        "@radix-ui/react-select": "^2.2.5",
+        "@radix-ui/react-slot": "^1.2.3",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "date-fns": "^4.1.0",
+        "lucide-react": "^0.525.0",
+        "next": "15.4.2",
+        "react": "19.1.0",
+        "react-dom": "19.1.0",
+        "tailwind-merge": "^3.3.1"
+      },
+      "devDependencies": {
+        "@tailwindcss/postcss": "^4.1.11",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.6",
+        "prisma": "^6.12.0",
+        "tailwindcss": "^4.1.11",
+        "tw-animate-css": "^1.3.5",
+        "typescript": "^5"
+      }
